@@ -93,13 +93,26 @@ const Navigation = React.forwardRef((props, ref) => {
             {language === "it" ? "Contatti" : "Contact"}
           </NavLink>
           
-          <Nav.Link 
-            className="nav-item lead font-weight-bold ml-lg-4 text-primary"
-            onClick={() => setLanguage(language === "it" ? "en" : "it")}
-            style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
-          >
-            {language === "it" ? "🇬🇧 EN" : "🇮🇹 IT"}
-          </Nav.Link>
+          <div className="d-flex align-items-center ml-lg-4 mt-3 mt-lg-0">
+            <img 
+              src="https://flagcdn.com/24x18/it.png" 
+              alt="Italiano" 
+              title="Italiano"
+              height="18"
+              width="24"
+              style={{ cursor: "pointer", opacity: language === "it" ? 1 : 0.5, marginRight: "10px", borderRadius: "2px", transition: "opacity 0.2s" }}
+              onClick={() => { setLanguage("it"); setExpanded(false); }}
+            />
+            <img 
+              src="https://flagcdn.com/24x18/gb.png" 
+              alt="English" 
+              title="English"
+              height="18"
+              width="24"
+              style={{ cursor: "pointer", opacity: language === "en" ? 1 : 0.5, borderRadius: "2px", transition: "opacity 0.2s" }}
+              onClick={() => { setLanguage("en"); setExpanded(false); }}
+            />
+          </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
