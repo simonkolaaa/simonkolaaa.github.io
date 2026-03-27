@@ -31,8 +31,10 @@ const Project = ({ heading, username, length, specfic }) => {
     try {
       // getting all repos
       const response = await axios.get(allReposAPI);
+      // filter out the portfolio repo from the list
+      const filteredRepos = response.data.filter(repo => repo.name.toLowerCase() !== "portfolio");
       // slicing to the length
-      repoList = [...response.data.slice(0, length)];
+      repoList = [...filteredRepos.slice(0, length)];
       // adding specified repos
       try {
         for (let repoName of specfic) {
@@ -43,8 +45,16 @@ const Project = ({ heading, username, length, specfic }) => {
         console.error(error.message);
       }
       // setting projectArray
-      // TODO: remove the duplication.
-      setProjectsArray(repoList);
+      // remove duplication
+      const uniqueNames = new Set();
+      const uniqueRepos = repoList.filter(repo => {
+        if (!uniqueNames.has(repo.name)) {
+          uniqueNames.add(repo.name);
+          return true;
+        }
+        return false;
+      });
+      setProjectsArray(uniqueRepos);
     } catch (error) {
       console.error(error.message);
     }
