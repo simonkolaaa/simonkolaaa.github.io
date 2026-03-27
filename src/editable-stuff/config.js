@@ -62,7 +62,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "SimonKolaa", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["portfolio-backend"],
 };
 
 // Leadership SECTION
@@ -120,7 +120,9 @@ const experiences = {
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
+        "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg"
       ],
       date: 'Fino al 2026',
     },

@@ -8,13 +8,13 @@ import {
 
 const Experience = ({ experiences }) => {
   return (
-    <section className="section">
+    <section className="section" id="experience">
       <Container>
         <Jumbotron className="bg-white">
           <h2 className="display-4 mb-5 text-center">
             {experiences.heading}
           </h2>
-          <Row>
+          <Row className="justify-content-center">
             {
               experiences.data.map((data, index) => {
                 return <ExperienceCard key={index} data={data} />
