@@ -1,10 +1,35 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
+    const [fontIndex, setFontIndex] = React.useState(0);
+    const [msgIndex, setMsgIndex] = React.useState(0);
+    const [isFade, setIsFade] = React.useState(false);
+
+    const fonts = [
+      "'Montserrat', sans-serif",
+      "'Playfair Display', serif",
+      "'Caveat', cursive",
+      "'Orbitron', sans-serif",
+      "'Dancing Script', cursive",
+      "'Bebas Neue', cursive"
+    ];
+
+    React.useEffect(() => {
+      const fontTimer = setInterval(() => {
+        setIsFade(true);
+        setTimeout(() => {
+          setFontIndex((prev) => (prev + 1) % fonts.length);
+          setMsgIndex((prev) => (prev + 1) % message.length);
+          setIsFade(false);
+        }, 500);
+      }, 4000);
+
+      return () => clearInterval(fontTimer);
+    }, [fonts.length, message.length]);
+
     return (
       <Jumbotron
         fluid
@@ -17,14 +42,18 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center">
-          <h1 ref={ref} className="display-1">
+          <h1 
+            ref={ref} 
+            className={`display-1 ${isFade ? 'text-fade-out' : 'text-fade-in'}`}
+            style={{ fontFamily: fonts[fontIndex], transition: "all 0.5s ease-in-out" }}
+          >
             {title}
           </h1>
-          <Typist>
-            <div className="lead typist">
-              {message}
-            </div>
-          </Typist>
+          
+          <div className={`lead typist ${isFade ? 'text-fade-out' : 'text-fade-in'}`} style={{ transition: "all 0.5s ease-in-out", minHeight: "1.5em" }}>
+            {message[msgIndex]}
+          </div>
+
           <div className="p-5">
             {icons.map((icon, index) => (
               <a

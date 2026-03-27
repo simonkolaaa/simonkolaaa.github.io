@@ -1,4 +1,17 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
+.custom-checkbox {
+  transform: scale(1.5);
+}
+
+.text-fade-in {
+  opacity: 1;
+}
+
+.text-fade-out {
+  opacity: 0;
+}
+
 @import "./animations";
 @import "./index";
 @import "./stars";
