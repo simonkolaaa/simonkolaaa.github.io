@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Jumbotron } from "./migration";
-import { Row } from "react-bootstrap"; // Added Row import
+import { Row } from "react-bootstrap";
 
 const Leadership = ({ heading, message, img, imageSize }) => {
   return (
