@@ -1,4 +1,3 @@
-```javascript
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Jumbotron } from "./migration";
