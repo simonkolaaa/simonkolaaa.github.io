@@ -23,7 +23,7 @@ const mainBody = {
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/simonkola21/",
+      url: "https://www.instagram.com/simonkolaaa/",
     },
   ],
 };
