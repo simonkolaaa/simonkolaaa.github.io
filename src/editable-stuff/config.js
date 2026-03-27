@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#2c3e50, #000000, #34495e, #1a252f",
   firstName: "Simon",
   middleName: "",
   lastName: "Kola",
@@ -16,20 +16,8 @@ const mainBody = {
       url: "https://github.com/simonkolaaa",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.instagram.com/simonkola21/",
     },
   ],
 };
@@ -74,21 +62,10 @@ const repos = {
 // Leadership SECTION
 const leadership = {
   show: true,
-  heading: "Progetti Speciali e Collaborazioni",
+  heading: "Progetti",
   message:
     "Durante il mio percorso scolastico ho collaborato a diversi progetti in team, sviluppando logiche backend in Python (Flask) e interfacce web responsive. Lavorare in gruppo mi ha insegnato a comunicare meglio, risolvere problemi complessi in team e strutturare codice pulito. Amo affrontare nuove sfide informatiche e aiutare i compagni nel problem solving.",
-  images: [
-    { 
-      img: require("../editable-stuff/simonkola.png"), 
-      label: "Problem Solving", 
-      paragraph: "Amo trovare la soluzione ottimale ai problemi logici." 
-    },
-    { 
-      img: require("../editable-stuff/simonkola.png"), 
-      label: "Teamwork", 
-      paragraph: "Codice scritto e versionato in team usando Git e GitHub." 
-    },
-  ],
+  images: [],
   imageSize: {
     width:"615",
     height:"450"
@@ -125,7 +102,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm an IT student currently studying Python, Flask, and Web Technologies. If you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "simon.kola@example.com",
+  email: "simonkola21@gmail.com",
 };
 
 const experiences = {
@@ -133,13 +110,13 @@ const experiences = {
   heading: "Percorso ed Esperienze",
   data: [
     {
-      role: 'Sviluppatore Web & Backend (Progetti IT)',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'Settembre 2025 – Presente',
-    },
-    {
       role: 'Studente di Informatica',
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: [
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      ],
       date: 'Fino al 2026',
     },
   ]
