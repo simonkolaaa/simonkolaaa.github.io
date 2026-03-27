@@ -40,7 +40,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/simonkola.png"),
-  imageSize: 375,
+  imageSize: 300,
   message:
     "Sono uno studente di informatica che ha studiato Python, Flask, HTML, JS, JSON ecc.",
   resume: "",
