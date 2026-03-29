@@ -61,7 +61,6 @@ const repos = {
   it: { heading: "Progetti Recenti" },
   en: { heading: "Recent Projects" },
   gitHubUsername: "simonkolaaa", //i.e."johnDoe12Gh"
-  gitHubUsername: "SimonKolaa",
   reposLength: 6,
   specificRepos: ["portfolio-backend", "checkfeed-bot"],
 };
