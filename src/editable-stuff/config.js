@@ -69,7 +69,7 @@ const repos = {
     {
       username: "SimonKolaa",
       reposLength: 0,
-      specificRepos: ["Repo5M", "Progetto_5M", "board-game-app"]
+      specificRepos: ["Repo5M", "Progetto_5M", "board-games-app-SimonKolaa"]
     }
   ]
 };
