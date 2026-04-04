@@ -23,7 +23,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
-
+import ArusWidget from "./components/ArusWidget";
 const Home = React.forwardRef((props, ref) => {
   const { language } = React.useContext(LanguageContext);
 
@@ -75,8 +75,6 @@ const Home = React.forwardRef((props, ref) => {
     </>
   );
 });
-
-import ArusWidget from "./components/ArusWidget";
 
 const MainAppContent = () => {
   const titleRef = React.useRef();
