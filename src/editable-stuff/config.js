@@ -152,15 +152,15 @@ const experiences = {
       {
         role: 'Studente di Informatica',
         companylogo: [
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
           "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg"
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
         ],
         date: 'Fino al 2026',
       }
@@ -172,15 +172,15 @@ const experiences = {
       {
         role: 'Computer Science Student',
         companylogo: [
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
           "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg"
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
         ],
         date: 'Until 2026',
       }
