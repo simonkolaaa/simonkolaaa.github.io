@@ -65,12 +65,12 @@ const repos = {
     {
       username: "simonkolaaa",
       reposLength: 0,
-      specificRepos: ["portfolio-backend", "checkfeed-bot", "jarvis"]
+      specificRepos: ["portfolio-backend", "checkfeed-bot", "developer-roadmap"]
     },
     {
       username: "SimonKolaa",
       reposLength: 0,
-      specificRepos: ["Repo5M", "Progetto_5M", "board-games-app-SimonKolaa"]
+      specificRepos: ["Repo5M", "Progetto_5M", "freqtrade"]
     }
   ]
 };
@@ -105,7 +105,7 @@ const skills = {
     { name: "JavaScript", value: 80 },
     { name: "SQL", value: 70 },
     { name: "React", value: 60 },
-    { name: "Go", value: 30 },
+    { name: "AI", value: 40 },
     { name: "Rust", value: 40 },
   ],
   softSkills: [
@@ -163,6 +163,15 @@ const experiences = {
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
         ],
         date: 'Fino al 2026',
+      },
+      {
+        role: 'IDE',
+        companylogo: [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+          "https://www.cursor.com/assets/images/logo.svg",
+          "https://www.vectorlogo.zone/logos/google/google-icon.svg"
+        ],
+        date: '2024 - Presente',
       }
     ]
   },
@@ -183,6 +192,15 @@ const experiences = {
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
         ],
         date: 'Until 2026',
+      },
+      {
+        role: 'IDE',
+        companylogo: [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+          "https://www.cursor.com/assets/images/logo.svg",
+          "https://www.vectorlogo.zone/logos/google/google-icon.svg"
+        ],
+        date: '2024 - Present',
       }
     ]
   }
