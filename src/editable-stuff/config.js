@@ -44,11 +44,11 @@ const about = {
   show: true,
   it: {
     heading: "Chi Sono",
-    message: "Sono uno studente di informatica appassionato dello sviluppo web e backend. Ho studiato linguaggi e framework come Python, Flask, HTML, JS, JSON e vari strumenti DevOps, sto attualmente imparando ulteriori linguaggi come React, Go e Rust."
+    message: "Sono uno studente di informatica con una forte passione per lo sviluppo web e le architetture backend. Nel corso dei miei studi e dei miei progetti personali ho approfondito l'utilizzo di linguaggi e framework come Python, Flask, HTML, CSS, JS, JSON e diversi strumenti DevOps. Attualmente sto espandendo le mie competenze esplorando il mondo del frontend con React e linguaggi di sistema performanti come Go e Rust. Mi piace affrontare sfide complesse, trovare soluzioni eleganti ai problemi e tenermi costantemente aggiornato sulle ultime tecnologie, con l'obiettivo di diventare un Software Engineer completo e versatile."
   },
   en: {
     heading: "About Me",
-    message: "I am a Computer Science student passionate about web and backend development. I have studied languages and frameworks such as Python, Flask, HTML, JS, JSON, and various DevOps tools, I am currently learning additional languages such as React, Go and Rust."
+    message: "I am a Computer Science student with a strong passion for web development and backend architectures. Throughout my studies and personal projects, I have deepened my knowledge of languages and frameworks such as Python, Flask, HTML, CSS, JS, JSON, and various DevOps tools. Currently, I am expanding my skill set by exploring frontend development with React and high-performance system languages like Go and Rust. I enjoy tackling complex challenges, finding elegant solutions to problems, and keeping constantly updated on the latest technologies, with the goal of becoming a complete and versatile Software Engineer."
   },
   imageLink: require("../editable-stuff/simonkola.png"),
   imageSize: 300,
@@ -80,11 +80,11 @@ const leadership = {
   show: true,
   it: {
     heading: "Progetti in Team",
-    message: "Durante il mio percorso scolastico ho collaborato a diversi progetti in team, sviluppando logiche backend in Python (Flask) e interfacce web responsive. Lavorare in gruppo mi ha insegnato a comunicare meglio, risolvere problemi complessi in team e strutturare codice pulito. Amo affrontare nuove sfide informatiche e aiutare i compagni nel problem solving."
+    message: "Durante il mio percorso scolastico e personale ho collaborato a diversi progetti in team, sviluppando logiche backend in Python (Flask) e interfacce web responsive. Lavorare in gruppo mi ha insegnato a comunicare meglio, risolvere problemi complessi in team e strutturare codice pulito. Sono molto propenso a fare nuove conoscenze, ad ascoltare le idee degli altri e a collaborare attivamente per raggiungere obiettivi comuni. Amo affrontare nuove sfide informatiche e aiutare i compagni nel problem solving, creando un ambiente di lavoro positivo e stimolante."
   },
   en: {
     heading: "Team Projects",
-    message: "During my academic journey, I have collaborated on several team projects, developing backend logic in Python (Flask) and responsive web interfaces. Working in groups taught me to communicate better, solve complex team problems, and structure clean code. I love tackling new computing challenges and helping classmates with problem-solving."
+    message: "During my academic and personal journey, I have collaborated on several team projects, developing backend logic in Python (Flask) and responsive web interfaces. Working in groups taught me to communicate better, solve complex team problems, and structure clean code. I am very inclined to make new acquaintances, listen to others' ideas, and actively collaborate to achieve common goals. I love tackling new computing challenges and helping classmates with problem-solving, creating a positive and stimulating work environment."
   },
   images: [],
   imageSize: {
@@ -135,11 +135,11 @@ const getInTouch = {
   show: true,
   it: {
     heading: "Contattami",
-    message: "Sono uno studente IT attualmente impegnato nello studio di Python, Flask e delle tecnologie web. Se hai domande o vuoi solo fare un saluto, sentiti libero di inviarmi un messaggio!"
+    message: "Se hai domande, proposte di collaborazione o vuoi solo fare un saluto, sentiti libero di inviarmi un messaggio. Ti risponderò il prima possibile!"
   },
   en: {
     heading: "Get In Touch",
-    message: "I'm an IT student currently studying Python, Flask, and Web Technologies. If you have any questions, or if you just want to say hi, please feel free to send me a message!"
+    message: "If you have any questions, collaboration proposals, or if you just want to say hi, please feel free to send me a message. I will reply as soon as possible!"
   },
   email: "simonkola21@gmail.com",
 };
@@ -155,6 +155,7 @@ const experiences = {
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
           "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg",
@@ -169,9 +170,20 @@ const experiences = {
         companylogo: [
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
           "https://www.cursor.com/assets/images/logo.svg",
-          "https://www.vectorlogo.zone/logos/google/google-icon.svg"
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Google_Antigravity_Logo.svg"
         ],
         date: '2024 - Presente',
+      },
+      {
+        role: 'Strumenti',
+        companylogo: [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg",
+          "https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/n8n.svg"
+        ],
+        date: 'Tecnologie',
       }
     ]
   },
@@ -184,6 +196,7 @@ const experiences = {
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
           "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg",
@@ -198,9 +211,20 @@ const experiences = {
         companylogo: [
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
           "https://www.cursor.com/assets/images/logo.svg",
-          "https://www.vectorlogo.zone/logos/google/google-icon.svg"
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Google_Antigravity_Logo.svg"
         ],
         date: '2024 - Present',
+      },
+      {
+        role: 'Tools',
+        companylogo: [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg",
+          "https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/n8n.svg"
+        ],
+        date: 'Technologies',
       }
     ]
   }
