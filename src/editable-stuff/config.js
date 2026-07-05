@@ -44,11 +44,11 @@ const about = {
   show: true,
   it: {
     heading: "Chi Sono",
-    message: "Sono uno studente di informatica con una forte passione per lo sviluppo web e le architetture backend. Nel corso dei miei studi e dei miei progetti personali ho approfondito l'utilizzo di linguaggi e framework come Python, Flask, HTML, CSS, JS, JSON e diversi strumenti DevOps. Attualmente sto espandendo le mie competenze esplorando il mondo del frontend con React e linguaggi di sistema performanti come Rust. Mi piace affrontare sfide complesse, trovare soluzioni ai problemi e tenermi costantemente aggiornato sulle ultime tecnologie."
+    message: "Sono stato studente di informatica successivamente diplomato con 80/100 con una forte passione per lo sviluppo web e le architetture backend. Nel corso dei miei studi e dei miei progetti personali ho approfondito l'utilizzo di linguaggi e framework come Python, Flask, HTML, CSS, JS, JSON e diversi strumenti DevOps. Attualmente sto espandendo le mie competenze esplorando il mondo del frontend con React e linguaggi di sistema performanti come Rust. Mi piace affrontare sfide complesse, trovare soluzioni ai problemi e tenermi costantemente aggiornato sulle ultime tecnologie."
   },
   en: {
     heading: "About Me",
-    message: "I am a Computer Science student with a strong passion for web development and backend architectures. Throughout my studies and personal projects, I have deepened my knowledge of languages and frameworks such as Python, Flask, HTML, CSS, JS, JSON, and various DevOps tools. Currently, I am expanding my skill set by exploring frontend development with React and high-performance system languages like Rust. I enjoy tackling complex challenges, finding solutions to problems, and keeping constantly updated on the latest technologies."
+    message: "I was a Computer Science student after graduated with 80/100 with a strong passion for web development and backend architectures. Throughout my studies and personal projects, I have deepened my knowledge of languages and frameworks such as Python, Flask, HTML, CSS, JS, JSON, and various DevOps tools. Currently, I am expanding my skill set by exploring frontend development with React and high-performance system languages like Rust. I enjoy tackling complex challenges, finding solutions to problems, and keeping constantly updated on the latest technologies."
   },
   imageLink: require("../editable-stuff/simonkola.png"),
   imageSize: 300,
@@ -141,7 +141,7 @@ const getInTouch = {
     heading: "Get In Touch",
     message: "If you have any questions, collaboration proposals, or if you just want to say hi, please feel free to send me a message. I will reply as soon as possible!"
   },
-  email: "simonkola21@gmail.com",
+  email: "simonkola.lavoro@gmail.com",
 };
 
 const experiences = {
